@@ -1,3 +1,17 @@
 form{
-    
+    padding:1% 0% 1% 0%;
+    margin-bottom:10%;
+    width:50%;
+    height:100%;
+    outline:1px solid white;
+    justify-content: center;
+    align-items:center;
+    background-color:#AD2E24;
+}
+
+form>p>a{
+    color:#2A2626;
+}
+form>p>a:hover{
+    color:#F5F9E9;
 }
