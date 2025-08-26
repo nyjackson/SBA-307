@@ -6,6 +6,10 @@ body {
   background-color: #2a2626;
   margin:0;
 }
+#top{
+  display:flex;
+  flex-direction:column;
+}
 nav {
   display: flex;
   width: 100%;
@@ -65,5 +69,5 @@ footer {
   outline: 1px solid rgb(248, 248, 255);
   font-size: 80%;
   padding: 1% 0% 1% 0%;
-  align-self: flex-end;
+  align-items: flex-end;
 }

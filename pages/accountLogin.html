@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AllStats.gg - About</title>
+    <title>AllStats.gg - Login</title>
     <link rel="stylesheet" href="../styles/style.css" />
-
+    <link rel="stylesheet" href="../styles/account.css" />
 </head>
-
 <body>
     <div>
-        <nav>
+         <nav>
             <div id="logoBox"><a href="index.html"><span style="font-size: 150%;">AllStats.gg</span><a></div>
             <div id="navBar">
                 <ul id="navBarItems">
@@ -23,13 +21,15 @@
                 </ul>
             </div>
         </nav>
-        <footer>
-            <p>Author: Nyala Jackson</p>
-            <p><a href="mailto:nymjackson@gmail.com">nymjackson@gmail.com</a></p>
-        </footer>
+        <form style = "display:flex; flex-direction:column;">
+            <label for = "username">Username: </label>
+            <input type = "text" id = "username"> <br>
+            <label for = "email">Email: </label>
+            <input type = "text" id = "email"> <br>
+            <label for = "password">Password: </label>
+            <input type = "password" id = "email"> <br>
+
+        </form>
     </div>
-
-
 </body>
-
 </html>
