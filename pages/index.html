@@ -30,10 +30,9 @@
         </section>
         <section>
             <div class="articleSection">
-                <h1>Articles Here About Most Popular Games RN</h1>
+                <h2>Fellow Users Are Currently Playing:</h2>
                 <div id="filter">
                     <label for="platform">Choose a platform:</label>
-
                     <select name="platform" id="platform-select">
                         <option value="">--Platform Type--</option>
                         <option value="sony">Sony/Playstation</option>
@@ -43,16 +42,16 @@
                         <option value="steam">Steam</option>
                         <option value="itch">Itch.io</option>
                     </select>
-                    <label for="platform">Choose a platform:</label>
-
-                    <select name="platform" id="platform-select">
-                        <option value="">--Platform Type--</option>
-                        <option value="sony">Single Player</option>
-
-                    </select>
+                    <form>
+                        <input type="radio" id="singlePlayer" name = "playerType" value="Single Player">
+                        <label for="singlePlayer">Single Player</label>
+                        <input type="radio" id="multiPlayer" name = "playerType" value="Multi Player">
+                        <label for="multiPlayer">Multi Player</label>
+                        <input type="button" value="Submit">
+                    </form>
                 </div>
 
-                <h2>Fellow Users Are Currently Playing:</h2>
+
                 <div id="resultSection">
                     <table>
                         <tr>
