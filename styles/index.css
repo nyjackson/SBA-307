@@ -1,0 +1,43 @@
+/*This stylesheet contains all the styles for elts within the homepage/index.html*/
+
+#logoBox {
+  outline: 1px solid rgb(255, 255, 255);
+  width: 20%;
+  margin-right: 1%;
+  text-align: center;
+}
+#navBar {
+  outline: 1px solid rgb(211, 123, 123);
+  width: 80%;
+  margin: 0;
+}
+
+#navBarItems {
+  display: flex;
+  list-style-type: none;
+  outline: 1px solid rgb(211, 123, 123);
+  margin-right: 10%;
+  margin-left: 10%;
+  justify-content: space-evenly;
+}
+
+#navBarItems > li {
+  outline: 1px rgb(255, 255, 255) solid;
+  height: auto;
+  font-size: 100%;
+  padding: 1%;
+}
+.carousel {
+  height: 250px;
+  display: flex;
+}
+.carousel > img {
+  justify-content: center;
+  align-items: center;
+}
+
+.articleSection {
+  height: 400px;
+
+  padding-left: 1%;
+}
