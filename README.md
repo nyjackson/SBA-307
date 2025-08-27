@@ -1,5 +1,4 @@
 # Skill Based Assessment for Module 307 #
----
 ## Purpose ##
 SBA-307 exhibits my understanding of HTML, CSS, and how they interact to craft a website. AllStats.gg was created to create a centralized hub of games you've played across different platforms (Sony, Microsoft, Steam, Epic, EA, etc). Part of the Per Scholas 2025 Software Engineering - Full Stack Program.
 ## Run ##
