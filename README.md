@@ -4,7 +4,7 @@ SBA-307 exhibits my understanding of HTML, CSS, and how they interact to craft a
 ## Run ##
 You can download the SBA-307 file and access it by opening the index.html located in SBA-307/pages/ in your browser.
 
-## Usage & Resource Links##
+## Usage & Resource Links ##
 - HTML and CSS
 - [Coolers](https://coolors.co/2a2626-ea8c55-c75146-ad2e24-f5f9e9)
 - [PS5ControllerPicture](https://www.pexels.com/photo/blue-sony-ps4-controller-on-black-surface-459762/)
@@ -19,7 +19,7 @@ Login to your account on AllStats via username/email and password. Accessible vi
 ### accountRegistration.html ### 
 Register for an account on AllStats by inputting your username, email, and password. Accessible via the "Don't have an account?" link under the login button in accountLogin.html.
 ### article.html ###
-
+(TBW)
 ### games.html ###
 Look at all the games across your connected platforms. This page aims to show you all the games registered to your accounts, a brief description and statistics on each game, a few, or all of them! Want to see how many hours you've played on the Sims vs Black Ops 2 on one platform? Here you would see that information. 
 ### index.html ###
@@ -27,7 +27,8 @@ Home page of AllStats.gg, contains a welcome banner and a table including the mo
 ## CSS Pages ##
 All pages are located in the "styles" folder in SBA-307. Each stylesheet corresponds to its html file with the same name. 
 ### style.css ###
-CSS for the constants throughout the website such as, the navbar, the footer, the body background color and font-family. 
+CSS for the constants throughout the website such as the navbar, the footer, the body background color and font-family.
+
 ---
 ## Technical Requirements ## 
 ### HTML Reqs: ###
