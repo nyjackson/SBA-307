@@ -1,7 +1,7 @@
 # Skill Based Assessment for Module 307 #
 ## Purpose ##
 SBA-307 exhibits my understanding of HTML, CSS, and how they interact to craft a website. AllStats.gg was created to create a centralized hub of games you've played across different platforms (Sony, Microsoft, Steam, Epic, EA, etc). Part of the Per Scholas 2025 Software Engineering - Full Stack Program.
-## Run ##
+## Access ##
 You can download the SBA-307 file and access it by opening the index.html located in SBA-307/pages/ in your browser.
 
 ## Usage & Resource Links ##
@@ -11,7 +11,7 @@ You can download the SBA-307 file and access it by opening the index.html locate
 - [Fallout GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWh5YnU3dzg5bDVkNXNnd2ZxMTY2aTl5eHEyd2FhM2t3YmIwNGo1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CdhxVrdRN4YFi/giphy.gif)
 
 ## HTML Pages ##
-All pages are located in the "pages" folder in SBA-307
+All pages are located in the "pages" folder in SBA-307.
 ### about.html ###
 Description about the site and its purpose. Featuers a brief introduction, gif, p, footer, and nav. Accessible via the "About" in the navbar.
 ### accountLogin.html ###
