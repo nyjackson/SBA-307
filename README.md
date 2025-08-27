@@ -10,6 +10,7 @@ You can download the SBA-307 file and access it by opening the index.html locate
 - HTML and CSS
 
 ## HTML Pages ##
+All pages are located in the "pages" folder in SBA-307
 ### about.html ###
 Description about the site and its purpose. Featuers a brief introduction, gif, p, footer, and nav. Accessible via the "About" in the navbar.
 ### accountLogin.html ###
@@ -19,10 +20,15 @@ Register for an account on AllStats by inputting your username, email, and passw
 ### article.html ###
 
 ### games.html ###
-
+Look at all the games across your connected platforms. This page will show you all the games registered to your accounts, a brief description and statistics on each game, a few, or all of them! Want to see how many hours you've played on the Sims vs Black Ops 2 on one platform? Here you would see that information. 
 ### index.html ###
-
+Home page of AllStats.gg, contains a welcome banner and a table including the most played games by the community across platforms. Can filter based on platform type and/or player count.
 ## CSS Pages ##
+All pages are located in the "styles" folder in SBA-307
+### about.css ###
+### accountLogin.css ###
+### index.css ###
+### style.css ###
 ---
 ## Technical Requirements ## 
 ### HTML Reqs: ###
