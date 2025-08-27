@@ -1,0 +1,6 @@
+section{
+    display:flex;
+}
+section>p{
+    padding:2%;
+}
