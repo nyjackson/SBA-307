@@ -7,7 +7,7 @@ You can download the SBA-307 file and access it by opening the index.html locate
 ## Usage & Resource Links##
 - HTML and CSS
 - [Coolers] (https://coolors.co/2a2626-ea8c55-c75146-ad2e24-f5f9e9)
-- [PS5 Controller Picture] (https://www.pexels.com/photo/blue-sony-ps4-controller-on-black-surface-459762/)
+- [PS5ControllerPicture] (https://www.pexels.com/photo/blue-sony-ps4-controller-on-black-surface-459762/)
 - [Fallout GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWh5YnU3dzg5bDVkNXNnd2ZxMTY2aTl5eHEyd2FhM2t3YmIwNGo1NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CdhxVrdRN4YFi/giphy.gif)
 
 ## HTML Pages ##
