@@ -3,8 +3,12 @@
 #welcomeBanner {
   height: 250px;
   display: flex;
-
+  background-color:#EA8C55;
 }
+#welcomeInfo{
+  padding:1%;
+}
+
 .articleSection {
   height: 100%;
   padding-left: 1%;
@@ -21,9 +25,9 @@
     height:10%;
     margin-left:1%;
 }
+
 th, tr{
     outline:1px solid white;
     padding:1%;
     align-items:center;
-
 }
