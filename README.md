@@ -15,15 +15,15 @@ All pages are located in the "pages" folder in SBA-307.
 ### about.html ###
 Description about the site and its purpose. Featuers a brief introduction, gif, p, footer, and nav. Accessible via the "About" in the navbar.
 ### accountLogin.html ###
-Login to your account on AllStats via username/email and password. Accessible via the "Account" in the navbar. 
+Login to your account on AllStats via username/email and password. Accessible via the "Account" in the navbar or through the "Have an account?" link in accountRegistration.html.
 ### accountRegistration.html ### 
 Register for an account on AllStats by inputting your username, email, and password. Accessible via the "Don't have an account?" link under the login button in accountLogin.html.
 ### article.html ###
 (TBW)
 ### games.html ###
-Look at all the games across your connected platforms. This page aims to show you all the games registered to your accounts, a brief description and statistics on each game, a few, or all of them! Want to see how many hours you've played on the Sims vs Black Ops 2 on one platform? Here you would see that information. 
+This page aims to show you all the games registered to your accounts, a brief description and statistics on each game, a few, or all of them! Want to see how many hours you've played on the Sims vs Black Ops 2 on one platform? Here you would see that information. 
 ### index.html ###
-Home page of AllStats.gg, contains a welcome banner and a table including the most played games by the community across platforms. Can filter based on platform type and/or player count.
+Home page of AllStats.gg, contains a welcome banner and a table including the most played games by the community across platforms. Can filter based on platform type and/or player count. Accessible via the logo in the nav bar or "Home".
 ## CSS Pages ##
 All pages are located in the "styles" folder in SBA-307. Each stylesheet corresponds to its html file with the same name. 
 ### style.css ###
