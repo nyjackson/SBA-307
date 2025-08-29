@@ -38,10 +38,6 @@ Log in to your account on AllStats via username/email and password. Accessible v
 
 Register for an account on AllStats by inputting your username, email, and password. Accessible via the "Don't have an account?" link under the login button in accountLogin.html.
 
-### article.html ###
-
-(TBW)
-
 ### games.html ###
 
 This page aims to show you all the games registered to your accounts, a brief description and statistics on each game, a few, or all of them! Want to see how many hours you've played on the Sims vs Black Ops 2 on one platform? Here you would see that information. 
@@ -57,8 +53,6 @@ All pages are located in the "styles" folder in SBA-307. Each stylesheet corresp
 ### style.css ###
 
 CSS for the constants throughout the website, such as the navbar, the footer, the body background color and font-family.
-
-
 
 ---
 
