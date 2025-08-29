@@ -76,7 +76,7 @@ CSS for the constants throughout the website, such as the navbar, the footer, th
 
 - Inline, Internal, and External Styling
 
-- Five Different CSS selectos
+- Five Different CSS selectors
 
 - Flexbox and/or Bootstrap
 
