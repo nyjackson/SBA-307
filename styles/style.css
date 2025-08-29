@@ -1,5 +1,5 @@
 /*This stylesheet contains all the styles for elts common across pages, such as link changes, navigation bar, and footer*/
-@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Princess+Sofia&display=swap');
 body {
   font-family: "Funnel Display", sans-serif;
   color: #F5F9E9;
