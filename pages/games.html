@@ -1,151 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AllStats.gg - My Games</title>
     <link rel="stylesheet" href="../styles/style.css" />
     <style>
-        #gameLib {
-            width: auto;
-            /* outline: 1px solid white; */
-            height: 100%;
-            padding: 0% 5%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+      #gameLib {
+        width: auto;
+        /* outline: 1px solid white; */
+        height: 100%;
+        padding: 0% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      section {
+        text-align: center;
+        transition: font-size 2s;
+        transition: color 3s;
+        transition: background-color 2s;
+        transition: outline 2s;
+      }
+      section:hover {
+        font-family: "Princess Sofia", cursive;
+        font-size:90.8%;
+        outline: 1px solid #f5f9e9;
+        background-color:  #ad2e24;
+      }
 
-        }
-        section>h1{
-            text-align:center;
-            transition:font-size 2s;
-            transition:color 1.5s;
-        }
-        section>h1:hover{
-            font-size:250%;
-            color:#AD2E24;
-        }
+      .game-card-body:hover {
+        outline: 1px solid #f5f9e9;
+        background-color: rgba(255, 255, 255, 0.5);
+      }
 
-        .game-card-body:hover{
-            outline: 1px solid #F5F9E9;
-            background-color: rgba(255, 255, 255, 0.5);
-        }
+      .game-card-body {
+        width: 30%;
+        margin: 8px;
+        background-color: white;
+        outline: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        transition: background-color 1s;
+      }
 
-        .game-card-body {
-            width: 30%;
-            margin: 8px;
-            background-color: white;
-            outline: 1px solid black;
-            display: flex;
-            flex-direction: column;
-            transition: background-color 1s;
-        }
+      .img-container {
+        display: flex;
+        padding-bottom: 1%;
+      }
 
-        .img-container {
-            display: flex;
-            padding-bottom: 1%;
-        }
+      .img-container > img {
+        max-width: 100%;
+        height: auto;
+      }
 
-        .img-container>img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .game-card-body>h1,
-        .game-card-body>p {
-            color: rgba(0, 0, 0, 0.5);
-            padding-left: 4%;
-            padding-right: 4%;
-        }
+      .game-card-body > h1,
+      .game-card-body > p {
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 4%;
+        padding-right: 4%;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div id="top">
-        <nav>
-            <div id="logoBox"><a href="index.html"><span style="font-size: 150%;">AllStats.gg</span></a></div>
-            <div id="navBar">
-                <ul id="navBarItems">
-                     <li><a href="index.html">Home</a></li>
-                    <li><a href="games.html">Games</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="accountLogin.html">Account</a></li>
-
-                </ul>
-            </div>
-        </nav>
-          <section style = "margin-bottom:1%;">
-            
-        <h1 style = "text-align: center;">My Games</h1>
-        </section>
-        <div id="gameLib">
-            <div class="game-card-body">
-                <div class="img-container">
-                    <img src="../images/welcomeHero.jpg" alt="" />
-                </div>
-                <h1>Game Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae natus delectus. At, ut placeat
-                    perspiciatis inventore voluptatem voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
-                    tenetur mollitia odio culpa doloribus.</p>
-            </div>
-
-            <div class="game-card-body">
-                <div class="img-container">
-                    <img src="../images/welcomeHero.jpg" alt="" />
-                </div>
-                <h1>Game Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae natus delectus. At, ut placeat
-                    perspiciatis inventore voluptatem voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
-                    tenetur mollitia odio culpa doloribus.</p>
-            </div>
-            <div class="game-card-body">
-                <div class="img-container">
-                    <img src="../images/welcomeHero.jpg" alt="" />
-                </div>
-                <h1>Game Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae natus delectus. At, ut placeat
-                    perspiciatis inventore voluptatem voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
-                    tenetur mollitia odio culpa doloribus.</p>
-            </div>
-            <div class="game-card-body">
-                <div class="img-container">
-                    <img src="../images/welcomeHero.jpg" alt="" />
-                </div>
-                <h1>Game Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae natus delectus. At, ut placeat
-                    perspiciatis inventore voluptatem voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
-                    tenetur mollitia odio culpa doloribus.</p>
-            </div>
-            <div class="game-card-body">
-                <div class="img-container">
-                    <img src="../images/welcomeHero.jpg" alt="" />
-                </div>
-                <h1>Game Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae natus delectus. At, ut placeat
-                    perspiciatis inventore voluptatem voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
-                    tenetur mollitia odio culpa doloribus.</p>
-            </div>
-            <div class="game-card-body">
-                <div class="img-container">
-                    <img src="../images/welcomeHero.jpg" alt="" />
-                </div>
-                <h1>Game Title Here</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae natus delectus. At, ut placeat
-                    perspiciatis inventore voluptatem voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
-                    tenetur mollitia odio culpa doloribus.</p>
-            </div>
+      <nav>
+        <div id="logoBox">
+          <a href="index.html"
+            ><span style="font-size: 150%">AllStats.gg</span></a
+          >
+        </div>
+        <div id="navBar">
+          <ul id="navBarItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="accountLogin.html">Account</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section style="margin-bottom: 1%">
+        <h1 style="text-align: center">My Games</h1>
+      </section>
+      <div id="gameLib">
+        <div class="game-card-body">
+          <div class="img-container">
+            <img src="../images/welcomeHero.jpg" alt="" />
+          </div>
+          <h1>Game Title Here</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae
+            natus delectus. At, ut placeat perspiciatis inventore voluptatem
+            voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
+            tenetur mollitia odio culpa doloribus.
+          </p>
         </div>
 
-        <footer>
-            <p>Author: Nyala Jackson</p>
-            <p><a href="mailto:nymjackson@gmail.com">nymjackson@gmail.com</a></p>
-        </footer>
+        <div class="game-card-body">
+          <div class="img-container">
+            <img src="../images/welcomeHero.jpg" alt="" />
+          </div>
+          <h1>Game Title Here</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae
+            natus delectus. At, ut placeat perspiciatis inventore voluptatem
+            voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
+            tenetur mollitia odio culpa doloribus.
+          </p>
+        </div>
+        <div class="game-card-body">
+          <div class="img-container">
+            <img src="../images/welcomeHero.jpg" alt="" />
+          </div>
+          <h1>Game Title Here</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae
+            natus delectus. At, ut placeat perspiciatis inventore voluptatem
+            voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
+            tenetur mollitia odio culpa doloribus.
+          </p>
+        </div>
+        <div class="game-card-body">
+          <div class="img-container">
+            <img src="../images/welcomeHero.jpg" alt="" />
+          </div>
+          <h1>Game Title Here</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae
+            natus delectus. At, ut placeat perspiciatis inventore voluptatem
+            voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
+            tenetur mollitia odio culpa doloribus.
+          </p>
+        </div>
+        <div class="game-card-body">
+          <div class="img-container">
+            <img src="../images/welcomeHero.jpg" alt="" />
+          </div>
+          <h1>Game Title Here</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae
+            natus delectus. At, ut placeat perspiciatis inventore voluptatem
+            voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
+            tenetur mollitia odio culpa doloribus.
+          </p>
+        </div>
+        <div class="game-card-body">
+          <div class="img-container">
+            <img src="../images/welcomeHero.jpg" alt="" />
+          </div>
+          <h1>Game Title Here</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet vitae
+            natus delectus. At, ut placeat perspiciatis inventore voluptatem
+            voluptatibus! Voluptatem pariatur maiores ex voluptates magni,
+            tenetur mollitia odio culpa doloribus.
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <p>Author: Nyala Jackson</p>
+        <p><a href="mailto:nymjackson@gmail.com">nymjackson@gmail.com</a></p>
+      </footer>
     </div>
-
-
-</body>
-
+  </body>
 </html>
